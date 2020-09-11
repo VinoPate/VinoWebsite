@@ -57,6 +57,6 @@ a.button {
   font-size: 16px;
 }
 
-form{
+form, label{
 font-family: Monaco;
 }
