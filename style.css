@@ -3,11 +3,11 @@ body {
   margin: 0;
   background: #ff59d8;
   /* Old browsers */
-  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  background: -moz-linear-gradient(45deg, red 0%, pink 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  background: -webkit-linear-gradient(45deg, red 0%, pink 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  background: linear-gradient(45deg, red 0%, pink 100%);
 }
 
 h1{
