@@ -19,23 +19,27 @@ width: 500px;
 margin-right: 220px;
 margin-left: 220px;
 color: blue;
+background-color: aqua;
+opacity: 0.4;
 left: 50%;
+font-family: Georgia;
 }
 
 p{
 margin-top: 500px;
 font-family: helvetica;
 font-size: 40px;
+text-align: center;
 }
 
 image{
 min-width: 100px;
-width: 200px;
+width: 50%;
 float: right;
 position: fixed;
 margin-top: 100px;
-margin-right: 220px;
-margin-left: 220px;
+margin-left: auto;
+margin-right: auto;
 border-radius: 30px;
 left: 50%;
 }
@@ -48,6 +52,7 @@ width: 200px;
 max-width: 500px;
 border: 1px;
 font-size: 34px;
+left: 50%;
 }
 
 tr {
