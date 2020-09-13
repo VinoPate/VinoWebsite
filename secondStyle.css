@@ -1,17 +1,22 @@
 /* Formatting */
 body{
     font-family: arial;
+    background-color: #E63946;
   }
   
   header{
     margin: 20px;
     font-size: 30px;
+    color: #F1FAEE;
+    background-color: #1D3557;
   }
   
   h1{
     width: 100%;
     font-size: 26px;
     font-family: "Fredoka One";
+    color: #457B9D;
+    background-color: #A8DADC;
   }
   
   h2{
