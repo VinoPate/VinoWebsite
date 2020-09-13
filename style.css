@@ -1,114 +1,18 @@
-body {
-  padding: 0;
-  margin: 0 auto;
-  background: #ff59d8;
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, red 0%, pink 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, red 0%, pink 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, red 0%, pink 100%);
+/* Formatting */
+body{
+  font-family: arial;
+}
+
+header{
+  margin: 20px;
+  font-size: 30px;
+  color: #E63946;
 }
 
 h1{
-display: block;
-float: left;
-position: fixed;
-min-width: 200px;
-margin: 0px auto;
-color: blue;
-background-color: aqua;
-opacity: 0.4;
-left: 50%;
-width: 100%;
-font-size: 26px;
-font-family: "Fredoka One";
-}
-
-h2{
-  font-size: 18px;
-  font-family: "Kufam"
-}
-
-p{
-margin-top: 500px;
-text-align: center;
-}
-
-p, li{
-  font-family: "Hind";
-  font-size: 16px;
-}
-
-image{
-box-sizing: border-box;
-min-width: 100px;
-width: 50%;
-float: right;
-position: fixed;
-margin-top: 100px;
-margin-left: auto;
-margin-right: auto;
-border-radius: 30px;
-}
-
-table{
-background-color: pink;
-margin-top: 600px;
-position:relative; 
-width: 200px;
-max-width: 500px;
-border: 1px;
-font-size: 34px;
-left: 50%;
-position: fixed;
-  bottom: 0px;
-  z-index:6;
   width: 100%;
-}
-
-tr {
-  background: orange;
-  border-bottom: 1px solid #FFF;
-  margin-bottom: 5px;
-}
-
-body{
-background-color: red;
-}
-
-a.button {
-    background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-form, label{
-font-family: Monaco;
-}
-
-.midground {
-  background-color: hsla(225, 100%, 25%, 0.4);
-}
-
-.foreground {
-  background-color: hsla(325, 50%, 50%, 0.6);
-}
-
-.midground, .foreground {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  margin: 15vh 0 0 15vw;
-  padding: 0;
-  width: 35vw;
-  height: 59vh;
+  font-size: 26px;
+  font-family: "Fredoka One";
 }
 
 h2{
