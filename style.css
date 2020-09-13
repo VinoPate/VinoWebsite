@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   background: #ff59d8;
   /* Old browsers */
   background: -moz-linear-gradient(45deg, red 0%, pink 100%);
@@ -15,24 +15,33 @@ display: block;
 float: left;
 position: fixed;
 min-width: 200px;
-width: 500px;
-margin-right: 220px;
-margin-left: 220px;
+margin: 0px auto;
 color: blue;
 background-color: aqua;
 opacity: 0.4;
 left: 50%;
-font-family: Georgia;
+width: 100%;
+font-size: 26px;
+font-family: "Fredoka One";
+}
+
+h2{
+  font-size: 18px;
+  font-family: "Kufam"
 }
 
 p{
 margin-top: 500px;
-font-family: helvetica;
-font-size: 40px;
 text-align: center;
 }
 
+p, li{
+  font-family: "Hind";
+  font-size: 16px;
+}
+
 image{
+box-sizing: border-box;
 min-width: 100px;
 width: 50%;
 float: right;
@@ -41,7 +50,6 @@ margin-top: 100px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 30px;
-left: 50%;
 }
 
 table{
@@ -53,6 +61,10 @@ max-width: 500px;
 border: 1px;
 font-size: 34px;
 left: 50%;
+position: fixed;
+  bottom: 0px;
+  z-index:6;
+  width: 100%;
 }
 
 tr {
@@ -97,4 +109,86 @@ font-family: Monaco;
   padding: 0;
   width: 35vw;
   height: 59vh;
+}
+
+h2{
+  font-size: 18px;
+  font-family: "Kufam"
+}
+
+p, li{
+  font-family: "Hind";
+  font-size: 16px;
+}
+
+.guides{
+  padding: 0px 5px;
+  display: block;
+  border: 1px solid;
+}
+
+.colors{
+  display: inline-block;
+  margin: 10px 5px;
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  max-width: auto;
+  padding: 0px 20px;
+  line-height: 20px;
+  }
+
+.colors p{
+  text-align: center;
+}
+
+/* Colors */
+
+#imperial-red{
+  background-color: #E63946;
+}
+
+#honeydew{
+  background-color: #F1FAEE;
+}
+
+#powder-blue{
+  background-color: #A8DADC;
+}
+
+#celadon-blue{
+  background-color: #457B9D;
+}
+
+#prussian-blue{
+  color: white;
+  background-color: #1D3557;
+}
+
+/* Fonts */
+
+.fonts{
+  top: 0px;
+  min-height: 160px;
+  display: inline-block;
+  margin: 10px 15px;
+  min-width: 20px;
+  max-width: auto;
+}
+
+.fonts p{
+  line-height: 20px;
+  font-size: 18px;
+}
+
+#kufam, #kufam p{
+  font-family: "Kufam";
+}
+
+#hind, #hind p{
+  font-family: "Hind";
+}
+
+#fredoka-one, #fredoka-one p{
+  font-family: "Fredoka One";
 }
