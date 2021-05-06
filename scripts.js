@@ -47,3 +47,7 @@ $("tester").on("click", function(){
 });
 
 });
+
+$("tester").on("click", function(){
+    console.log("Print Test?");
+});
