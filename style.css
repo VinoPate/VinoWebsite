@@ -46,6 +46,10 @@ p, li{
   text-align: center;
 }
 
+.button{
+  cursor: pointer;
+}
+
 /* Colors */
 
 #imperial-red{
