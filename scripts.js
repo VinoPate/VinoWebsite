@@ -1,8 +1,5 @@
 $(function(){
 
-    $("html").css("cursor: url(http://www.rw-designer.com/cursor-extern.php?id=110025), auto");
-
-
    console.log("I should be playing audio");
 
    var sound = new Howl({
