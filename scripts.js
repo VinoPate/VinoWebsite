@@ -37,7 +37,7 @@ $("#howler-voldown").on("click", function(){
     sound.volume(vol);
 });
 
-$("html").css("cursor: url('http://www.rw-designer.com/cursor-extern.php?id=110025'), auto");
+$("style").css("cursor: url('http://www.rw-designer.com/cursor-extern.php?id=110025'), auto");
 
 });
 
