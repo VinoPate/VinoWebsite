@@ -1,13 +1,43 @@
-function clickme(){
+$(function(){
 
    console.log("I should be playing audio");
 
    var sound = new Howl({
     src: ['./sounds/Pate.mp3'],
-    volume: 0.8
+    volume: 0.5
   });
   
-  sound.play();
+  $("#howler-play").on("click", function(){
+    sound.play();
+});
 
-}
+$("#howler-pause").on("click", function(){
+    sound.pause();
+});
+
+$("#howler-stop").on("click", function(){
+    sound.stop();
+});
+
+$("#howler-volup").on("click", function(){
+    var vol = sound.volume();
+    vol += 0.1;
+    if (vol > 1) {
+        vol = 1;
+    }
+    sound.volume(vol);
+});
+
+$("#howler-voldown").on("click", function(){
+    var vol = sound.volume();
+    vol -= 0.1;
+    if (vol < 0) {
+        vol = 0;
+    }
+    sound.volume(vol);
+});
+
+});
+
+
 
